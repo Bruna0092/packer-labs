@@ -15,6 +15,7 @@ source "amazon-ebs" "update-ami" {
 
   tags = {
     update_date = "21012024"
+    Name = "packer-labs-21012024"
     }
   
   source_ami_filter {
