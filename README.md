@@ -16,7 +16,7 @@ sudo apt update && sudo apt install packer
 ```
 mkdir packer-labs
 cd packer-labs
-touch [![ami-packerlab.pkr.hcl]]([https://twitter.com/](https://github.com/Bruna0092/packer-labs/blob/main/ami-packerlab.pkr.hcl))
+touch [![ami-packerlab.pkr.hcl]](https://twitter.com/](https://github.com/Bruna0092/packer-labs/blob/main/ami-packerlab.pkr.hcl)
 packer init .
 packer fmt .
 packer validate .
