@@ -1,5 +1,5 @@
 ## Cenário
-Criar uma imagem com com o sistema operacional atualizado.
+Criar uma imagem com com o sistema operacional atualizado a AWS.
 
 ![packer-lab1](https://github.com/Bruna0092/packer-labs/blob/main/packer-lab1.png)
 
@@ -21,3 +21,4 @@ packer fmt .
 packer validate .
 packer build ami-packerlab.pkr.hcl
 ```
+![packer-lab1](https://github.com/Bruna0092/packer-labs/blob/main/packer-lab2.png)
