@@ -10,4 +10,13 @@ wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/sha
 echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com jammy main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update && sudo apt install packer
 ```
+## Execução
 
+```
+mkdir packer-labs
+cd packer-labs
+packer init .
+packer fmt .
+packer validate .
+packer build ami-packerlab.pkr.hcl
+```
