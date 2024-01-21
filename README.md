@@ -1,3 +1,7 @@
+## Cenário
+![packer-lab1](https://github.com/Bruna0092/packer-labs/blob/main/packer-lab1.jpg)
+![packer-lab2](https://github.com/Bruna0092/packer-labs/blob/main/packer-lab2.jpg)
+
 ## Instalação Packer
 
 * Ubuntu
